@@ -110,6 +110,13 @@ You can contribute to TinyGS by
 - Testing new released features and report issues
 - Contributing missing documentation for features and devices templates
 
+
+Contribute to the following repos for
+
+- [Wiki]()
+- [TinyGS Project](https://github.com/4m1g0/tinyGS)
+- [TinyGS Web Application](https://github.com/4m1g0/tinyGS-webapp/)
+
 # Documentation
 
 Check our [wiki](https://github.com/G4lile0/tinyGS/wiki)!
@@ -129,6 +136,7 @@ This project relies on several third party libraries:
 You might also want to check out the other parts of this project:
  * The web application: https://github.com/4m1g0/tinyGS-webapp
  * The decoder modules: https://github.com/4m1g0/tinygs-decoders
+ * The WiKi: https://github.com/4m1g0/tinygs-wiki
 
 # TinyGS team
 
