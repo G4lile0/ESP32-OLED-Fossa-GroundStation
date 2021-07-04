@@ -111,11 +111,13 @@ void MQTT_Client::reconnect()
 
     if (state() == -2) // first attempt
     {
+#ifdef SECURE_MQTT
       if (usingNewCert)
         espClient.setCACert(DSTroot_CA);
       else
         espClient.setCACert(newRoot_CA);
       usingNewCert = !usingNewCert;
+#endif
     }
     else
     {
